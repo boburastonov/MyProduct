@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyProduct</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyProduct</title>
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="container site-header__container">
+        <a href="index.html" class="logo site-header__logo">
+          <img class="site-header__logo--image" src="img/logo.svg" alt="logo" width="40" height="36">
+          <img class="site-header__logo--text" src="img/Product.svg" alt="logo" width="122" height="28">
+        </a>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a href="index.html" class="sitenav__link">product</a></li>
+            <li class="sitenav__item"><a href="customers.html" class="sitenav__link">customers</a></li>
+            <li class="sitenav__item"><a href="pricing.html" class="sitenav__link">pricing</a></li>
+            <li class="sitenav__item"><a href="resources.html" class="sitenav__link">resources</a></li>
+          </ul>
+        </nav>
+        <div class="site-header__buttons">
+          <a href="#" class="site-header__btn sign-in-btn register-btn">Sign in</a>
+          <a href="#" class="site-header__btn sign-up-btn register-btn">Sign up</a>
+          <button class="site-header__btn dark-light-btn">
+            <img class="dark-light-bg" src="img/dark-light-image.svg" alt="Dark-Light" width="24" height="24">
+          </button>
+        </div>
+      </div>
+    </header>
 
 
-
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
