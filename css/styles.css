@@ -111,6 +111,8 @@ select:-webkit-autofill:focus {
   margin-right: auto;
 }
 
+
+/* SITE-HEADER */
 .site-header {
   padding-top: 19px;
   padding-bottom: 19px;
@@ -181,6 +183,7 @@ select:-webkit-autofill:focus {
   line-height: auto;
   font-weight: 600;
   border-radius: 4px;
+  white-space: nowrap;
 }
 .sign-in-btn {
   color: #173A56;
@@ -199,6 +202,7 @@ select:-webkit-autofill:focus {
   border: 0;
   border-radius: 50%;
   cursor: pointer;
+  flex-shrink: 0;
 }
 .dark-light-bg{
   width: 24px;
@@ -209,6 +213,69 @@ select:-webkit-autofill:focus {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+/* SITE-HERO */
+.hero {
+  margin-top: 0;
+  margin-bottom: 111px;
+}
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+.hero__info {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+}
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.start-btn {
+  margin-right: 30px;
+  padding: 15px 41px;
+  color: white;
+  background-color: var(--green);
+  text-decoration: none;
+  border-radius: 4px;
+  line-height: auto;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.start-btn:hover{
+  opacity: 0.8;
+}
+.start-btn:active{
+  opacity: 0.6;
+}
+.play-btn{
+  color: var(--green);
+  background-image: url('../img/play.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
+  padding-left: 29px;
+  white-space: nowrap;
+}
+.hero__img {
+  width: 600px;
+  height: 555px;
 }
 
 @media
